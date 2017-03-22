@@ -15,8 +15,9 @@ export class AppComponent {
 
 	constructor(){
 		this.videos = [
-			new Video(1, "Interstellar", "zSWdZVtXT7E", "Interstellar - Official Warner Bros. UK"),
-			new Video(2, "The Avengers", "NPoHPNeU9fc", "Marvel's Avengers Assemble")
+			new Video(1, "The Dark Knight", "EXeTwQWrcwY", "The Dark Knight (2008)Christopher Nolan"),
+			new Video(2, "The Avengers", "NPoHPNeU9fc", "Marvel's Avengers Assemble (2012) Joss Whedon"),
+			new Video(3, "Avatar", "5PSNL1qE6VY", "Avatar (2009) James Cameron"),
 		]
 	}
 }
