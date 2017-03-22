@@ -2,13 +2,13 @@ export class Video {
    // YT video properties...
    id:number;
    title:string;
-   video_code:string;
+   videoCode:string;
    desc:string;
 
-	constructor(id:number,title:string,video_code:string,desc:string){
+	constructor(id:number, title:string, videoCode:string, desc:string){
 		this.id = id;
 		this.title = title;
-		this.video_code = video_code;
+		this.videoCode = videoCode.trim();
 		this.desc = desc;
 	}
 }

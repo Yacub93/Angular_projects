@@ -1,4 +1,5 @@
 <!-- 1a Attribute Binding to playlist tag -->
 <!-- 1b Sends data (videos) out from the app.component to playlist.component-->
 <h1>{{ mainHeading }}</h1>
-<playlist [vids]="videos"></playlist>  								  
+<playlist [videos]="videos" (onSelectedVideo)="onVideoSelected($event)"></playlist>
+<videoplayer>[video]="video"</videoplayer>								  
